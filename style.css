@@ -34,7 +34,7 @@ h1{
     font-size: 50px;
 }
 h2{
-    font-weight: 500px;
+    font-weight: 700px;
 }
 .text-center{
     color: black;
@@ -117,7 +117,19 @@ img{
     text-align: center;
     background-color: black;
     color: white;
+    
 }
 .extra-part{
     text-align: center;
+}
+.extra-image img{
+    width: 60%;
+    margin-left: 300px;
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+}
+.bonas-text{
+    margin-left: 10px;
+    margin-top: 200px;
 }
