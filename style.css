@@ -1,0 +1,8 @@
+.orange-color{
+    color: orange;
+}
+#first-border{
+    border-left: 2px solid;
+    border-image: linear-gradient(blue,yellow);
+    border-image-slice: 1;
+}
