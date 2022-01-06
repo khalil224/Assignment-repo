@@ -2,11 +2,122 @@
     color: orange;
 }
 #first-border{
-    border-left: 2px solid;
-    border-image: linear-gradient(blue,yellow);
+    border-left: 3px solid;
+    border-image: linear-gradient(red,tomato);
     border-image-slice: 1;
+
 }
 body{
-    font-family: font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700px;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+.half-width{
+    width: 50%;
+    padding: 2%;
+}
+.Arame-boso{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width img{
+    width: 40%;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-weight: 500px;
+}
+.text-center{
+    color: black;
+}
+.text-align{
+    text-align: center;
+}
+.different-box{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px red;
+}
+.making-part{
+    border-image-slice: 1;
+}
+.first-box{
+    border-radius: 15px;
+    background-color: lightgrey;
+    width: 30%;
+    padding: 20px;
+margin: 30px;
+
+}
+.second-box{
+    background-color:burlywood;
+    width: 30%;
+    border-radius: 15px;
+    padding: 20px;
+margin: 30px;
+}
+.third-box{
+    background-color:blanchedalmond;
+    width: 30%;
+   border-radius: 15px;
+    padding: 20px;
+margin: 30px;
+}
+img{
+    width: 40%;
+}
+.develop img{
+    width: 60%;
+    margin-left: 100px;
+}
+.background-photo{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+}
+.background-photo-two{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: 200px;
+}
+.text{
+    margin-right: 300px;
+}
+.link-button-two{
+    text-decoration: none;
+    background-image:linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700px;
+    padding: 35px 50px;
+    border-radius: 5px;
+}
+.tex-two{
+    margin-left:100px ;
+}
+.last-image img{
+    width: 50%;
+    margin-left: 250px;
+}
+.padding{
+    padding: 35px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.extra-part{
+    text-align: center;
 }
